@@ -1,0 +1,24 @@
+.or{
+    text-align: center;
+    position: relative;
+    color:gray
+    }
+.or::after{
+    content: '';
+    width: 205px;
+    height: 1px;
+    background-color:rgb(129, 129, 129,.3);
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    
+}
+.or::before{
+    content: '';
+    width: 205px;
+    height: 1px;
+    background-color:rgb(129, 129, 129,.3);
+    position: absolute;
+    top:13px;
+    left:10px;
+}
